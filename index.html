@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c02461d063.js" crossorigin="anonymous"></script>
+    <title>Gunluk</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="head">
+                <h2>Country finder</h2>
+                <button>Dark Mode</button>
+            </div>
+            <input type="text" class="search"/>
+            <div class="filter"></div>
+            <select id="regionSelect" onchange="regionSelector()">
+                <option value="">All</option>
+                <option value="Africa">Africa</option>
+                <option value="Americas">Americas</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+        </div>
+    </header>
+    <main>
+        <div id="countries"></div>
+    </main>
+    <button class="btn2" style="padding: 10px;">artir</button>
+
+
+
+    <script src="js.js"></script>
+</body>
+</html>
